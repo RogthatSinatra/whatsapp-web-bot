@@ -6,11 +6,16 @@ I have create this piece of code just to know if was viable. It is just a concep
 
 # How to use it?
 
-1. Open `chrome`, then visit `web.whatsapp.com`
-2. Press `F12`, click at `console`
-3. Copy all the `bot.js` code  and paste into console. Don't worry, you can trust me, I am a loveeeely person.
+You have to install the Chrome extension from the forked file in developer mode:
 
-4. Installed!
+1. Open the Chrome extension page and turn on "Developer mode" 
+    you could do chrome://extensions/ in chrome
+
+2. Select "Load Unpacked Extension" and point it to the extension folder - and you are done!
+
+3. Installed!
+
+4. Click the extension button and open whatsApp.
 
 5. Now ask for your friend to send you this message: `@HELP`
 
