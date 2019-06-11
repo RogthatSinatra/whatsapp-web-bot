@@ -1,0 +1,39 @@
+{
+	"manifest_version":2,
+	"name":"whatsapp-web-bot",
+	"version": "19.06",
+   "description":"Whatsapp Web Bot - Example of Bot for use on Whatsapp Web (on Chrome)",
+  "browser_action":{
+"default_popup": "popup.html"
+  },
+  "icons":{
+"32":"res/icon32.png",
+"48":"res/icon48.png",
+"128":"res/icon128.png"
+  },
+	"content_scripts": [
+  {
+    "matches":[
+    	"http://web.whatsapp.com/*",
+      "https://web.whatsapp.com/*"
+    ],
+  	"js": ["content.js"]
+  }
+ ],
+  "background": {
+  "scripts": ["background.js"]
+},
+"permissions":[
+ "storage", "tabs"//,"<all_urls>"
+
+
+],
+"browser_action": {
+  "default_icon":"res/alogo.png",
+ "default_popup": "popup.html",
+  "default_title": "Whatsapp Web Bot."
+ 
+  }
+}
+//schedule send message. 
+//store chache

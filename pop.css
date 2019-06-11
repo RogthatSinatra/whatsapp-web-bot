@@ -1,0 +1,74 @@
+.similar{
+	width: 79%;
+    height:40px;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	border-style: none;
+	border: 1px solid #000;
+    border-radius: 20%;
+}
+.similar:hover {
+	background-color: white;
+	color: green;
+	font-weight:bold;
+}
+
+button{
+	width: 100%;
+	height:40px;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	border-style: none;
+	border: 1px solid #000;
+    border-radius: 20%;
+}
+button:hover {
+	background-color: white;
+	color: green;
+	font-weight:bold;
+
+}
+.cust{
+	width: 100%;
+	height:40px;
+	cursor: pointer;
+	background-color: green;
+	color: white;
+	border-style: none;
+	border: 1px solid #000;
+    border-radius: 20%;
+}
+.cust:hover{
+	background-color: white;
+	color: green;
+	font-weight:bold;
+}
+
+
+}
+
+
+.issues{
+	width:19%;
+}
+
+.form-control{
+	
+	height:80px;
+
+}
+textarea {
+	color:green;
+	cursor: auto;
+
+} 
+legend {
+	color:green;
+	font-style: bold;
+
+}
+fieldset{
+	box-shadow: green;
+}
